@@ -1,0 +1,10 @@
+# Site settings
+title: Al-Kitaab and Sunnah Publications
+email: info@kspublications.com
+description: "Books by Muhammad Jibaly published by Al-Kitaab and Sunnah Publications."
+baseurl: ""
+url: "http://kspublications.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
