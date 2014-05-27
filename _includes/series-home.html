@@ -10,10 +10,16 @@
     {% endif %}
 {% endfor %}
 
+<div class="row">
 {% for i in (1..count) %}
     {% for p in site.pages %}
         {% if p.order == i and p.url contains page.url %}
-            <a href="{{p.url}}">{{p.title}}</a>
+            <div class="col-md-6">
+                <h2>{{p.title}}</h2>
+                <p>{{p.content}}</p>
+                <a class="btn btn-default" href="{{p.url}}" role="button">View details »</a>
+            </div>
         {% endif %}
     {% endfor %}
 {% endfor %}
+</div>
