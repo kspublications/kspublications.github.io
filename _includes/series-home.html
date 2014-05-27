@@ -1,6 +1,12 @@
 {% assign sorted_pages = site.pages | sort:"order" %}
 
+<pre>Series Home {{page.url}}</pre>
+
 {% for p in sorted_pages %}
+    <pre>
+        url: {{p.url}}
+        title: {{p.title}}
+    </pre>
     {% if p.order and p.url contains page.url %}
     <a href="{{p.url}}">{{p.title}}</a>
     {% endif %}
