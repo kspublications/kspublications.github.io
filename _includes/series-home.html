@@ -1,8 +1,6 @@
-{% assign sorted_pages = site.pages | sort:"order" %}
+<pre>## Series Home {{page.url}}</pre>
 
-<pre>Series Home {{page.url}}</pre>
-
-{% for p in sorted_pages %}
+{% for p in site.pages %}
     <pre>
         url: {{p.url}}
         title: {{p.title}}
