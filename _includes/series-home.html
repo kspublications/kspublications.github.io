@@ -1,11 +1,19 @@
-<pre>## Series Home {{page.url}}</pre>
+{% comment %}
+    Capture the number of books in a series and assign it to the count variable.
+    Then, iterate over all the pages count times to get the right order within the series.
+{% endcomment %}
 
+{% assign count = '0' %}
 {% for p in site.pages %}
-    <pre>
-        url: {{p.url}}
-        title: {{p.title}}
-    </pre>
     {% if p.order and p.url contains page.url %}
-    <a href="{{p.url}}">{{p.title}}</a>
+        {% capture count %}{{ count | plus: '1' }}{% endcapture %}
     {% endif %}
+{% endfor %}
+
+{% for i in (1..count) %}
+    {% for p in site.pages %}
+        {% if p.order == i and p.url contains page.url %}
+            <a href="{{p.url}}">{{p.title}}</a>
+        {% endif %}
+    {% endfor %}
 {% endfor %}
