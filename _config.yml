@@ -8,3 +8,14 @@ url: "http://kspublications.com"
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+collections:
+    catalog:
+        output: true
+
+defaults:
+    -
+        scope:
+            path: ""
+        values:
+            layout: "default"
