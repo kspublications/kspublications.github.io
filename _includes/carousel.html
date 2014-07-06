@@ -1,28 +1,43 @@
 <!-- Carousel
 ================================================== -->
 <div id="this-carousel-id" class="carousel slide" data-ride="carousel"><!-- class of slide for animation -->
-   <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#this-carousel-id" data-slide-to="0" class="active"></li>
-  </ol>
+    <!-- Indicators -->
 
-  <div class="carousel-inner">
-    <div class="item active"><!-- class of active since it's the first item -->
-      <a href="/catalog">
-         <img src="http://www.california-tour.com/wp-content/uploads/2013/05/books-banner.jpg" alt="" />
-         <div class="carousel-caption">
-             <h2>Our Book Catalog</h2>
-         </div>
-      </a>
-    </div>
-  </div><!-- /.carousel-inner -->
+    {% if site.data.carousels.size > 1 %}
+    <ol class="carousel-indicators">
+        {% for carousel in site.data.carousels %}
+        <li data-target="#this-carousel-id"
+        {% if forloop.first %} class="active" {% endif %}
+        data-slide-to="{{ forloop.index0 }}"></li>
+        {% endfor %}
+    </ol>
+    {% endif %}
 
-  <!-- Controls -->
-  <a class="left carousel-control" href="#this-carousel-id" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#this-carousel-id" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
+    <div class="carousel-inner">
+        {% for carousel in site.data.carousels %}
+        <div class="item{% if forloop.first %} active{% endif %}">
+            <a href="{{carousel.href}}">
+                <img src="{{carousel.image}}" alt="" />
+
+                {% if carousel.caption %}
+                <div class="carousel-caption">
+                    <h2>{{carousel.caption}}</h2>
+                </div>
+                {% endif %}
+            </a>
+        </div>
+        {% endfor %}
+    </div><!-- /.carousel-inner -->
+
+    <!-- Controls -->
+    {% if site.data.carousels.size > 1 %}
+    <a class="left carousel-control" href="#this-carousel-id" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#this-carousel-id" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+    {% endif %}
+
 </div>
 <!-- /.carousel -->
