@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+    {% include head.html %}
+
+    <body role="document">
+
+    <div class="container" role="main">
+
+        {% include header.html %}
+
+        {% if page.cover %}
+          <img src="{{page.cover}}" />
+        {% endif %}
+
+        {{ content }}
+
+        <div class="panel panel-default">
+          <div class="panel-heading">Look inside</div>
+          <table class="table">
+            <tr>
+              <td>Price</td>
+              <td>{{page.price}}</td>
+            </tr>
+          </table>
+        </div>
+
+        <hr />
+
+        {% include footer.html %}
+
+    </div>
+
+    </body>
+</html>
