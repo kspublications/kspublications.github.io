@@ -1,8 +1,15 @@
 ---
-layout: default
+layout: book
 title: "Sickness, Regulations & Exhortations"
 series: the-inevitable-journey
 order: 1
+cover: /images/sickness/1_front_cover.png
+price: $15.00
+pages: 327
+dimensions:
+published_date: 2003
+binding: hardcover
+isbn: 1-891229-78-8
 ---
 
 This book is the first in the series. It deals with sickness, which continues to
