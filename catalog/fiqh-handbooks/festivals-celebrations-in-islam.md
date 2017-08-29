@@ -1,8 +1,15 @@
 ---
-layout: default
+layout: book
 title: "Festivals & Celebrations in Islam"
 series: fiqh-handbooks
 order: 1
+cover: /images/festivals/1_front_cover.png
+price: $14.99
+pages: 246
+dimensions:
+published_date: 2005
+binding: paperback
+isbn: 1-891229-23-0
 ---
 
 Festivals and celebrations are occasions of joy and happiness.
