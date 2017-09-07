@@ -4,7 +4,10 @@ layout: default
 
 <p>
     {% if page.type == 'quran' %}
-      Quran Surah {{page.chapter}} Ayah {{page.verse}}
+      {% comment %} chapter must be a string to index into JSON {% endcomment %}
+      {% assign chapter = page.chapter | prepend: "" %}
+      {% assign verse = page.verse | minus: 1 %}
+      {{ site.data.quran[chapter][verse] }}
     {% elsif page.type == 'hadeeth' %}
       Hadeeth Book {{page.book}} Number {{page.number}}
     {% else %}
