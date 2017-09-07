@@ -17,6 +17,8 @@ layout: default
           Surah {{ref.chapter}} Ayah {{ref.verse}}
         {% elsif ref.type == 'hadeeth' %}
           Book {{ref.book}} Number {{ref.number}}
+        {% else %}
+          {{ ref.title }}
         {% endif %}
       {% endcapture %}
       <li><a href="{{ ref.url }}">{{ label }}</a></li>

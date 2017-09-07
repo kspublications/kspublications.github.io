@@ -6,4 +6,3 @@ chapters:
  - "Introduction & History"
  - "Islamic Ruling of Smoking"
 ---
-Reference index file

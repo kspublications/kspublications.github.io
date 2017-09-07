@@ -7,5 +7,7 @@ layout: default
       Quran Surah {{page.chapter}} Ayah {{page.verse}}
     {% elsif page.type == 'hadeeth' %}
       Hadeeth Book {{page.book}} Number {{page.number}}
+    {% else %}
+      {{ page.content }}
     {% endif %}
 </p>
