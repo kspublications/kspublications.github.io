@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<p>
+    {% if page.type == 'quran' %}
+      Quran Surah {{page.chapter}} Ayah {{page.verse}}
+    {% elsif page.type == 'hadeeth' %}
+      Hadeeth Book {{page.book}} Number {{page.number}}
+    {% endif %}
+</p>

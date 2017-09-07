@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{% for chapter in page.chapters %}
+  {% capture chapter_url %}{{ page.url | replace: 'index', forloop.index }}{% endcapture %}
+  <h1>{{ chapter }}</h1>
+
+  <ul>
+    {% for ref in site.ref %}
+      {% unless ref.url contains chapter_url %}
+        {% continue %}
+      {% endunless %}
+
+      {% capture label %}
+        {% if ref.type == 'quran' %}
+          Surah {{ref.chapter}} Ayah {{ref.verse}}
+        {% elsif ref.type == 'hadeeth' %}
+          Book {{ref.book}} Number {{ref.number}}
+        {% endif %}
+      {% endcapture %}
+      <li><a href="{{ ref.url }}">{{ label }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
