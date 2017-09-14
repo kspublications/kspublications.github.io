@@ -20,3 +20,11 @@ its dictates. These two components were central to the Prophet’s () mission
                             
      «It is He who has sent among the unlettered a Messenger from themselves: reciting to them His āyāt, purifying them, and teaching them
       the Book and Wisdom – although they were previously in clear deviation.» 6
+      
+From this, we realize the urgency of providing the English-speaking public with serious writings that refine the
+understanding of Islām and present it in a pure and simple form that incorporates two aspects:
+
+1. Purified Islāmic teachings
+2. Practical guidelines for implementing them.
+
+Indeed, this is the mission that we adopt, and this book is a humble step in that direction.
