@@ -10,6 +10,8 @@ dimensions:
 published_date: 2005
 binding: paperback
 isbn: 1-891229-23-0
+summary: >
+    Summary here.
 ---
 
 Festivals and celebrations are occasions of joy and happiness.

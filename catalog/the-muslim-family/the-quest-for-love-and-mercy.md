@@ -10,6 +10,8 @@ dimensions:
 published_date: 2002
 binding: paperback
 isbn: 1-891229-51-6
+summary: >
+    Summary here.
 ---
 
 This book covers the importance and advantages of marriage:

@@ -10,6 +10,8 @@ dimensions:
 published_date: 2003
 binding: paperback
 isbn:  1-891229-41-9
+summary: >
+    Summary here.
 ---
 
 This series of books relates stories of outstanding moral and educational value. The stories are exclusively taken from texts of the Qur’an and the authentic Sunnah. The narrations are enhanced by extensive remarks and commentaries, and are supplemented with important conclusions and lessons.

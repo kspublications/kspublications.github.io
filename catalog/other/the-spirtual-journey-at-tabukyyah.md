@@ -10,6 +10,8 @@ dimensions:
 published_date: 2007
 binding: paperback
 isbn: 1-891229-61-3
+summary: >
+    Summary here.
 ---
 
 This book is instrumental in explaining the true Methodology of adherence to Allaah’s Book, His Messenger’s Sunnah, and the Guidance of the sahaabah.

@@ -10,6 +10,8 @@ dimensions:
 published_date: 2003
 binding: hardcover
 isbn: 1-891229-78-8
+summary: >
+    Summary here.
 ---
 
 This book is the first in the series. It deals with sickness, which continues to

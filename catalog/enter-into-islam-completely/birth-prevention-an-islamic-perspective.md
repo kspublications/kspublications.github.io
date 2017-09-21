@@ -10,6 +10,8 @@ dimensions:
 published_date: 2008
 binding: paperback
 isbn: 1-891229-93-1
+summary: >
+    Summary here.
 ---
 
 This book presents a sound and comprehensive Islamic understanding of birth prevention and other related issues. It first establishes the Islamic view of procreation. This is followed by an overview of birth prevention methods, old and modern. Next, it sets important guidelines for understanding verdicts related to birth prevention. Finally, it presents the regulations regarding each birth prevention method, including abortion.

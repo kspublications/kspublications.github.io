@@ -1,6 +1,6 @@
 ---
 layout: series
 title: Other titles
-description: |
+description: >
     Assorted titles by K&S Publications
 ---
