@@ -1,5 +1,5 @@
 ---
-title: Life in al-Barzakh, from Death until Resurrection, 2nd Ed, HB
+title: "Life in al-Barzakh, from Death until Resurrection, 2nd Ed, HB"
 price: $14.00
 pages: 269
 published_date: 2007

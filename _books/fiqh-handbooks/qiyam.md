@@ -1,5 +1,5 @@
 ---
-title: The Night Prayers: Qiyām & Tarāwīh, 2nd Ed
+title: "The Night Prayers: Qiyām & Tarāwīh, 2nd Ed"
 price: $10.00
 pages: 195
 published_date: 2002

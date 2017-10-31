@@ -1,5 +1,5 @@
 ---
-title: Sickness, Regulations & Exhortations, 2nd Ed, HB
+title: "Sickness, Regulations & Exhortations, 2nd Ed, HB"
 price: $15.00
 pages: 327
 published_date: 2003

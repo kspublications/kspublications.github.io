@@ -1,5 +1,5 @@
 ---
-title: The Fragile Vessels – Marital Rights & Obligations, Rev Ed
+title: "The Fragile Vessels – Marital Rights & Obligations, Rev Ed"
 price: $10.00
 pages: 190
 published_date: 2000

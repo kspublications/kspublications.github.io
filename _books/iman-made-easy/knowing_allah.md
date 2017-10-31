@@ -1,5 +1,5 @@
 ---
-title: Knowing Allāh, 2nd Ed
+title: "Knowing Allāh, 2nd Ed"
 price: $9.00
 pages: 134
 published_date: 2002

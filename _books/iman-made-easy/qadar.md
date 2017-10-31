@@ -1,5 +1,5 @@
 ---
-title: Believing in Allāh’s Decree, Qadar
+title: "Believing in Allāh’s Decree, Qadar"
 price: $12.00
 pages: 247
 published_date: 2004

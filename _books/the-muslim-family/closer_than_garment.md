@@ -1,5 +1,5 @@
 ---
-title: Closer than a Garment – Marital Intimacy, Rev Ed
+title: "Closer than a Garment – Marital Intimacy, Rev Ed"
 price: $10.00
 pages: 192
 published_date: 2000

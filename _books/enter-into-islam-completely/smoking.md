@@ -1,5 +1,5 @@
 ---
-title: Smoking, Intoxicants, & Narcotics, 2nd Ed, FB
+title: "Smoking, Intoxicants, & Narcotics, 2nd Ed, FB"
 price: $10.00
 pages: 174
 published_date: 2012

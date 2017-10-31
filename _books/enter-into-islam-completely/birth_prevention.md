@@ -1,5 +1,5 @@
 ---
-title: Birth Prevention; an Islāmic Perspective, 2nd Ed
+title: "Birth Prevention; an Islāmic Perspective, 2nd Ed"
 price: $8.00
 pages: 126
 published_date: 2008

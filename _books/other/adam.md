@@ -1,5 +1,5 @@
 ---
-title: Ādam, Father of Humanity
+title: "Ādam, Father of Humanity"
 price: $11.00
 pages: 215
 published_date: 2009

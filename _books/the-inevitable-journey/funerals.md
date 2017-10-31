@@ -1,5 +1,5 @@
 ---
-title: Funerals, Regulations & Exhortations, 2nd Ed, HB
+title: "Funerals, Regulations & Exhortations, 2nd Ed, HB"
 price: $15.00
 pages: 326
 published_date: 2003

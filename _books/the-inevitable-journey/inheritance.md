@@ -1,5 +1,5 @@
 ---
-title: Inheritance, Regulations & Exhortations, 2nd Ed, HB
+title: "Inheritance, Regulations & Exhortations, 2nd Ed, HB"
 price: $12.00
 pages: 175
 published_date: 2006

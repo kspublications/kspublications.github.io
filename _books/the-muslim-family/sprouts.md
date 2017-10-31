@@ -1,5 +1,5 @@
 ---
-title: Our Precious Sprouts – Regulations for Newborns, 2nd Ed, HB
+title: "Our Precious Sprouts – Regulations for Newborns, 2nd Ed, HB"
 price: $13.00
 pages: 269
 published_date: 2002

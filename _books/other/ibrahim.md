@@ -1,5 +1,5 @@
 ---
-title: Ibrāhīm, a Nation in One Man
+title: "Ibrāhīm, a Nation in One Man"
 price: $10.00
 pages: 184
 published_date: 2003

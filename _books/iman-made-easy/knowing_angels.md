@@ -1,5 +1,5 @@
 ---
-title: Knowing the Angels, 2nd Ed
+title: "Knowing the Angels, 2nd Ed"
 price: $9.00
 pages: 144
 published_date: 2003

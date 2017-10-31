@@ -1,5 +1,5 @@
 ---
-title: Knowing Allāh’s Books & the Qur’ān, Rev 2nd Ed
+title: "Knowing Allāh’s Books & the Qur’ān, Rev 2nd Ed"
 price: $9.00
 pages: 124
 published_date: 2007

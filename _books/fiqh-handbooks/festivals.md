@@ -1,5 +1,5 @@
 ---
-title: Festivals & Celebrations in Islām, 2nd Ed
+title: "Festivals & Celebrations in Islām, 2nd Ed"
 price: $13.00
 pages: 272
 dimensions:

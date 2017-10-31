@@ -1,5 +1,5 @@
 ---
-title: Islāmic Will & Testament, 2nd Ed
+title: "Islāmic Will & Testament, 2nd Ed"
 price: $3.00
 pages: 32
 published_date: 2012

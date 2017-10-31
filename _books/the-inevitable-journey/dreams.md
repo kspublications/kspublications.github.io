@@ -1,5 +1,5 @@
 ---
-title: The Dreamer’s Handbook, Sleep Etiquettes & Dream Interpretation, HB
+title: "The Dreamer’s Handbook, Sleep Etiquettes & Dream Interpretation, HB"
 price: $16.00
 pages: 360
 published_date: 2007

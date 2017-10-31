@@ -1,5 +1,5 @@
 ---
-title: Knowing Allāh’s Prophets & Messengers
+title: "Knowing Allāh’s Prophets & Messengers"
 price: $9.00
 pages: 127
 published_date: 2003

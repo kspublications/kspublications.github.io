@@ -1,5 +1,5 @@
 ---
-title: The Beard and Other Traits of Fitrah, 2nd Ed
+title: "The Beard and Other Traits of Fitrah, 2nd Ed"
 price: $7.00
 pages: 111
 published_date: 2008

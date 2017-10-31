@@ -1,5 +1,5 @@
 ---
-title: The Spiritual Journey (at-Tabūkiyyah), Rev 2nd Ed
+title: "The Spiritual Journey (at-Tabūkiyyah), Rev 2nd Ed"
 price: $9.00
 pages: 136
 published_date: 2007

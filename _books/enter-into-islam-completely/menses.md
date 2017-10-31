@@ -1,5 +1,5 @@
 ---
-title: Regulations of Worship During Menses, 2nd Ed
+title: "Regulations of Worship During Menses, 2nd Ed"
 price: $8.00
 pages: 127
 published_date: 2007

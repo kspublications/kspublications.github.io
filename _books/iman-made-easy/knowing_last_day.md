@@ -1,5 +1,5 @@
 ---
-title: Knowing the Last Day
+title: "Knowing the Last Day"
 price: $12.00
 pages: 216
 published_date: 2004
