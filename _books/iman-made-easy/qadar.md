@@ -1,16 +1,10 @@
 ---
-title: "Believing in Allah’s Decree, Qadar"
-series: iman-made-easy
-order: 6
-cover: /images/qadar/1_front_cover.png
-price: $13.00
+title: Believing in Allāh’s Decree, Qadar
+price: $12.00
 pages: 247
-dimensions:
 published_date: 2004
 binding: paperback
 isbn: 1-891229-10-9
-summary: >
-    Summary here.
 ---
 
-"Believing in Allah's Decree; Qadar", is suitable for high school students and adults. It contains many explanatory diagrams and charts that are not currently available in any other book on Qadar. A series of aqeedah books covering the pillars of Faith in simple language. Its detailed explanations and extensive exercises make it ideal for new Muslims and elementary-school levels.
+This is a simplified series of books dealing with the fundamental Islamic beliefs. The material is well-founded on authentic proofs from the Qur'aan and Sunnah. The books are written in easy language, making them accessible to individuals with limited vocabulary. Each book is structured into chapters, sections, and subsections to enhance learning and facilitate grasping the concepts by elementary-level readers. Furthermore, each chapter includes exercises to review and emphasize these concepts. All of this makes the Eemaan Made Easy series a valuable source of reliable study material for schools and individuals.
