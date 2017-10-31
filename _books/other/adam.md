@@ -1,18 +1,10 @@
 ---
 title: Ādam, Father of Humanity
-series: other
-cover: /images/tabuk/1_front_cover.png
-price: $8.00
-pages: 131
-dimensions:
-published_date: 2007
+price: $11.00
+pages: 215
+published_date: 2009
 binding: paperback
-isbn: 1-891229-61-3
-summary: >
-    Summary here.
+isbn: 1-891229-41-9
 ---
 
-This book is instrumental in explaining the true Methodology of adherence to Allaah’s Book, His Messenger’s Sunnah, and the Guidance of the sahaabah.
-True to his well-known insightful approach in delving into the texts, Ibn ul-Qayyim starts by explaining the qualities of righteousness and piety that are required from everyone, both in practice and in da‘wah. He then proceeds to describe the true meaning of migration to Allaah and His Messenger, discussing in the process full submission to the Messenger’s Sunnah as an integral requirement of eemaan. He then goes on to deliberate on the situations of true misery and true happiness.
-
-Toward the end, he stipulates the requirements of the Journey of Migration, presenting along the way some very important insights for sound comprehension of the Qur’aan. In addition to its valuable methodological coverage, this book is very touching in its address to the soul and heart. This is a characteristic that you rarely find in writings of other authors. May Allaah reward Ibn ul-Qayyim profusely.
+This series of books relates stories of outstanding moral and educational value. The stories are exclusively taken from texts of the Qur’an and the authentic Sunnah. The narrations are enhanced by extensive remarks and commentaries, and are supplemented with important conclusions and lessons. This series provides excellent reading material for Muslims at large and Muslim youth in particular. Whereas the language and discussion level target individuals who have completed elementary school, teachers may also find this series useful for reading to elementary school students. This particular book presents amazing aspects and details of the story of our father, the noble prophet Adam.
