@@ -12,9 +12,15 @@ permalink: pretty
 collections:
   ref:
     output: true
+  books:
+    output: true
 
 defaults:
   - scope:
       type: ref
     values:
       layout: ref
+  - scope:
+      type: books
+    values:
+      layout: book2
