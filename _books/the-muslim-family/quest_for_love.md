@@ -1,5 +1,5 @@
 ---
-title: "The Quest for Love & Mercy – Marriage & Wedding"
+title: "The Quest for Love & Mercy – Marriage & Wedding, Rev Ed"
 price: $10.00
 pages: 204
 published_date: 2002
