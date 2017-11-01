@@ -23,4 +23,4 @@ defaults:
   - scope:
       type: books
     values:
-      layout: book2
+      layout: book

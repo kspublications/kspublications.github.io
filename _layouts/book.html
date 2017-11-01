@@ -1,60 +1,19 @@
-<!DOCTYPE html>
-<html>
+<div class="col-sm-4 col-6 book-item">
+  <a class="book-link" href="#{{ page.slug }}" data-toggle="modal">
+    <img class="img-fluid" src="/img/covers/{{ page.slug }}.png" alt="{{ page.title }}">
+    <div class="enlarge"></div>
+  </a>
+</div>
 
-    {% include head.html %}
-
-    <body role="document">
-
-    <div class="container" role="main">
-
-        {% include header.html %}
-
-        <div class="row">
-          <div class="col-md-6">
-            {{ content }}
-          </div>
-          <div class="col-md-6">
-            <a href="#" class="thumbnail">
-              <img src="{{page.cover}}" alt="book cover" />
-            </a>
-          </div>
-        </div>
-
-        <div class="panel panel-default">
-          <div class="panel-heading">Look inside</div>
-          <table class="table">
-            <tr>
-              <td class="col-md-1">Price</td>
-              <td class="col-md-3">{{page.price | money }}</td>
-            </tr>
-            <tr>
-              <td>Pages</td>
-              <td>{{ page.pages }}</td>
-            </tr>
-            <tr>
-              <td>Dimensions</td>
-              <td>{{ page.dimensions }}</td>
-            </tr>
-            <tr>
-              <td>Published Date</td>
-              <td>{{ page.published_date }}</td>
-            </tr>
-            <tr>
-              <td>Binding</td>
-              <td>{{ page.binding }}</td>
-            </tr>
-            <tr>
-              <td>ISBN</td>
-              <td>{{ page.isbn }}</td>
-            </tr>
-          </table>
-        </div>
-
-        <hr />
-
-        {% include footer.html %}
-
-    </div>
-
-    </body>
-</html>
+<div id="view_{{ page.slug }}" style="display: none">
+  <h2>{{ page.title }}</h2>
+  <hr class="star-primary">
+  <img class="img-fluid img-centered" src="/img/covers/{{ page.slug }}.png" alt="" />
+  <p>
+    {{ page.pages }}pp • {{ page.price }} • published: {{ page.published_date }}
+    {% if page.isbn %}
+      • ISBN: {{ page.isbn }}
+    {% endif %}
+  </p>
+  {{ content }}
+</div>

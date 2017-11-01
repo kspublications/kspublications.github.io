@@ -2,24 +2,313 @@
 layout: default
 ---
 
-{% include carousel.html %}
-
-<div class="row">
-  <div class="col-sm-4">
-  </div><!-- /.col-sm-4 -->
-  <div class="col-sm-4">
-  </div><!-- /.col-sm-4 -->
-  <div class="col-sm-4">
-    <h3>Latest Publications</h3>
-    <div class="list-group">
-        {% for event in site.categories.calendar %}
-            <a href="{{event.url}}" class="list-group-item">
-                <h4 class="list-group-item-heading">{{event.title}}</h4>
-                <p class="list-group-item-text">{{event.date}}</p>
-            </a>
-        {% endfor %}
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">K&amp;S Publications</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#works">Works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#resellers">Resellers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#mission">Mission</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+        </li>
+      </ul>
     </div>
-  </div><!-- /.col-sm-4 -->
+  </div>
+</nav>
+
+<!-- Header -->
+<header class="masthead">
+  <div class="container">
+    <img class="img-fluid" src="/img/logo.png" alt="K&amp;S Publications">
+  </div>
+</header>
+
+<div id="works">
+<section class="series">
+  <div class="container">
+    <h2 class="text-center">The Muslim Family</h2><hr class="star-primary">
+    <div class="row justify-content-center">
+      {{ site.books | where: "slug", "quest_for_love" | first | output }}
+      {{ site.books | where: "slug", "closer_than_garment" | first | output }}
+      {{ site.books | where: "slug", "fragile_vessels" | first | output }}
+      {{ site.books | where: "slug", "sprouts" | first | output }}
+    </div>
+  </div>
+</section>
+
+<section class="series">
+  <div class="container">
+    <h2 class="text-center">Iman Made Easy</h2><hr class="star-primary">
+    <div class="row justify-content-center">
+      {{ site.books | where: "slug", "knowing_allah" | first | output }}
+      {{ site.books | where: "slug", "knowing_angels" | first | output }}
+      {{ site.books | where: "slug", "knowing_books" | first | output }}
+      {{ site.books | where: "slug", "knowing_prophets" | first | output }}
+      {{ site.books | where: "slug", "knowing_last_day" | first | output }}
+      {{ site.books | where: "slug", "qadar" | first | output }}
+    </div>
+  </div>
+</section>
+
+<section class="series">
+  <div class="container">
+    <h2 class="text-center">The Inevitable Journey</h2><hr class="star-primary">
+    <div class="row justify-content-center">
+      {{ site.books | where: "slug", "sickness" | first | output }}
+      {{ site.books | where: "slug", "inheritance" | first | output }}
+      {{ site.books | where: "slug", "will" | first | output }}
+      {{ site.books | where: "slug", "funerals" | first | output }}
+      {{ site.books | where: "slug", "barzakh" | first | output }}
+      {{ site.books | where: "slug", "dreams" | first | output }}
+    </div>
+  </div>
+</section>
+
+<section class="series">
+  <div class="container">
+    <h2 class="text-center">Enter into Islam Completely</h2><hr class="star-primary">
+    <div class="row justify-content-center">
+      {{ site.books | where: "slug", "beard" | first | output }}
+      {{ site.books | where: "slug", "smoking" | first | output }}
+      {{ site.books | where: "slug", "birth_prevention" | first | output }}
+      {{ site.books | where: "slug", "menses" | first | output }}
+    </div>
+  </div>
+</section>
+
+<section class="series">
+  <div class="container">
+    <h2 class="text-center">Fiqh Handbooks</h2><hr class="star-primary">
+    <div class="row justify-content-center">
+      {{ site.books | where: "slug", "festivals" | first | output }}
+      {{ site.books | where: "slug", "qiyam" | first | output }}
+    </div>
+  </div>
+</section>
+
+<section class="series">
+  <div class="container">
+    <h2 class="text-center">Other titles</h2><hr class="star-primary">
+    <div class="row justify-content-center">
+      {{ site.books | where: "slug", "tabuk" | first | output }}
+      {{ site.books | where: "slug", "ibrahim" | first | output }}
+      {{ site.books | where: "slug", "adam" | first | output }}
+    </div>
+  </div>
+</section>
 </div>
 
-<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAlKitaabAndAsSunnah%2F&tabs=timeline&width=500&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+<section class="success" id="resellers">
+    <div class="container">
+      <h2 class="text-center">Resellers</h2>
+      <hr class="star-light">
+      <div class="row justify-content-center">
+        <div class="col-12"><h3>North America</h3></div>
+<div class="col-12 col-sm-6 col-md-4">
+<h4>Ammar Books &amp; Audio</h4>
+<a href="ammarbooksandaudio.com">ammarbooksandaudio.com</a> • <a href="tel:+1-860-224-2400">+1-860-224-2400</a>
+<br>96 Arch St,
+<br>New Britain, CT 06051
+</div>
+
+<div class="col-12 col-sm-6 col-md-4">
+<h4>Dar-Us-Salam (NY)</h4>
+<a href="http://www.darussalamny.com/index.php?route=product/search&amp;search=jibaly">darussalamny.com</a> • <a href="tel:+1-718-625-5925">+1-718-625-5925</a>
+<br>486 Atlantic Ave.,
+<br>Brooklyn, NY 11217
+</div>
+
+<div class="col-12 col-sm-6 col-md-4">
+<h4>Dar-Us-Salam (Houston)</h4>
+<a href="https://dar-us-salam.com/search?orderby=position&amp;search_query=jibaly">dar-us-salam.com</a> • <a href="tel:+1-713-722-0419">+1-713-722-0419</a>
+<br>1111 Conrad Sauer Dr. Suite A,
+<br>Houston, TX 77043
+</div>
+
+<div class="col-12 col-sm-6 col-md-4">
+  <h4>Noorart, Inc.</h4>
+  <a href="http://www.noorart.com/Items-from-this-Publisher?nrt_pub=Al-Kitaab%20@amp;%20as-Sunnah%20Publishing">noorart.com</a> • <a href="tel:+1-972-234-9108">+1-972-234-9108</a>
+  <br>1356 Exchange Dr.
+  <br>Richardson, TX 75081 USA
+</div>
+
+<div class="col-12 col-sm-6 col-md-4">
+<h4>Islamic Bookstore.com</h4>
+<a href="http://www.islamicbookstore.com/nsearch.html?#search/category=publisher-al-kitaab---as-sunnah-publishing">islamicbookstore.com</a> • <a href="tel:+1-888-786-8700">+1-888-786-8700</a>
+<br>3840 Bank Street,
+<br>Baltimore, MD 21224
+</div>
+
+<div class="col-12 col-sm-6 col-md-4">
+<h4>Dar al-Kitab al-Arabi</h4>
+<a href="https://www.alkitab.com/s1070-islam-muhamad-al-jibaly-books.html">alkitab.com</a> • <a href="tel:+1-714-636-9300">+1-714-636-9300</a>
+<br>11107 Brookhurst Street
+<br>Garden Grove, CA 92840
+</div>
+        </div>
+      <div class="row justify-content-center">
+        <div class="col-12"><h3>United Kingdom</h3></div>
+<div class="col-12 col-sm-6 col-md-4">
+  <h4>Darussalam London</h4>
+  <a href="http://www.darussalam.com/catalogsearch/advanced/result/?author02=53">darussalam.com</a> • <a href="tel:+44-20-8539-4885">+44-20-8539-4885</a>
+  <br>Unit 3 Estate Way
+  <br>Leyton, London, E10 7JN
+</div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12"><h3>Other</h3></div>
+<div class="col-12 col-sm-6 col-md-4">
+<h4>Dawah Corner (Makkah, KSA)</h4>
+<a href="https://fb.com/dcbksa">fb.com/dcbksa</a> • <a href="tel:+966-12-531-1895">+966-12-531-1895</a>
+<br>Hilton Tower, Makkah Commercial Center,
+<br>Al Hajlah, 201-233, Makkah 24231, Saudi Arabia
+</div>
+<div class="col-12 col-sm-6 col-md-4">
+<h4>Dar-us-Salam (Madinah, KSA)</h4>
+<a href="tel:+966-14-855-0119">+966-14-855-0119</a>
+<br>Sultana Street (Near Islamic University)
+<br>Madinah, Saudi Arabia
+</div>
+
+<div class="col-12 col-sm-6 col-md-4">
+<h4>Darussalam India</h4>
+<a href="https://www.google.com/search?q=site:darussalam.in+jibaly">darussalam.in</a> • <a href="tel:+91-44-45566249">+91-44-45566249</a>
+<br>#324, Triplicane High Road, Triplicane,
+<br>Chennai 600005, Tamil Nadu, India.
+</div>
+
+<div class="col-12 col-sm-6 col-md-4">
+<h4>Dakwah Corner (Malaysia)</h4>
+<a href="https://www.google.com/search?q=site:dakwahbookstore.com.my+jibaly">dakwahbookstore.com.my</a> • <a href="tel:+603-7956-4664">+603-7956-4664</a>
+<br>No. 34-1, Jalan 14/22, Section 14,
+<br>46100 Petaling Jaya, Selangor D.E., Malaysia
+</div>
+
+<div class="col-12 col-sm-6 col-md-4">
+<h4>Dar ul Kitab (Sri Lanka)</h4>
+<a href="http://darulkitabstore.com/?s=jibaly&post_type=product">darulkitabstore.com</a> • <a href="tel:+94-11-535-8712">+94-11-535-8712</a>
+<br>No 6, Nimal Road,
+<br>Colombo 4, Sri Lanka
+</div>
+
+<div class="col-12 col-sm-6 col-md-4">
+<h4>Iqra Books Nigeria</h4>
+<a href="http://www.iqrabooks.com.ng/author.php?author=Muhammad%20al-Jibaly">iqrabooks.com.ng</a> • <a href="tel:+234 (0) 818-714-2506">+234 (0) 818-714-2506</a>
+<br>14 Umar Audi Rd., Opp. Access Bank,
+<br>GRA Ilorin, Nigeria
+</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="mission">
+    <div class="container">
+      <h2 class="text-center">Mission</h2>
+      <hr class="star-primary">
+      <div class="row">
+        <div class="col-md-4 ml-auto">
+          <p>In light of the numerous English speaking Muslims whose bond with the Qur'an &amp; Sunnah has been undone with the days, we strive earnestly to bring their light closer, renew what has faded, and fasten what has long gone slack.</p>
+        </div>
+        <div class="col-md-4 mr-auto">
+          <p>• Purified Islamic teachings, extracted directly from the Qur'an &amp; Sunnah.
+             <br>• Practical guidelines for implementing them.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="success" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSejenSyciRfiYntuKfA0HltaLWzNri1uU0cdRem3kBrBdX4og/viewform?embedded=true#start=embed" width="100%" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <div class="footer-above">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col col-md-4">
+            <h3>Phone #s</h3>
+            <p>+1-817-719-2611
+              <br>+961-3-046-338 (Lebanon)
+            </p>
+          </div>
+          <div class="footer-col col-md-4">
+            <h3>Resources</h3>
+            <p><a href="http://islamiclectures.us/MJ.html">Audio Lectures</a>
+              <br><a href="/ksp-catalog.pdf">PDF Catalog</a>
+            </p>
+          </div>
+          <div class="footer-col col-md-4">
+            <h3>Around the Web</h3>
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a class="btn-social btn-outline" href="https://facebook.com/AlKitaabAndAsSunnah">
+                  <i class="fa fa-fw fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-social btn-outline" href="https://m.facebook.com/Muhammad-al-Jibaly-888366537860627/">
+                  <i class="fa fa-fw fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-social btn-outline" href="https://www.youtube.com/channel/UC0f3tQdlDZtAj_PZsEMARZQ">
+                  <i class="fa fa-fw fa-youtube"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-below">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            &copy; KSPublications
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="scroll-top d-lg-none">
+    <a class="btn btn-primary js-scroll-trigger" href="#page-top">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+  </div>
+
+  <div class="book-modal modal fade" id="modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal"><div class="lr"><div class="rl"></div></div></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
