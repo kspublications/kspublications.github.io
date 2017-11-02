@@ -1,0 +1,74 @@
+@media (max-width: 768px) {
+  html {font-size: 16px;}
+}
+@media (max-width: 576px) {
+  html {font-size: 14px;}
+  html.ios {font-size: 15.5px;}
+}
+
+.book-link img.img-fluid {
+  margin: 0 auto;
+  display: block;
+  box-shadow: 3px 2px 3px 2px #d2d2d2;
+}
+@media (min-width: 768px) {
+  .book-link img.img-fluid {
+    max-width: 200px; 
+  }
+}
+
+#contact iframe {height: 1000px;}
+@media (min-width: 1200px) {
+  #contact iframe { height: 1085px; }
+}
+
+.masthead, .success {
+  background: beige !important;
+}
+.success {
+  color: grey !important;
+}
+.success a {
+  color: #549fff;
+}
+
+nav#mainNav, footer div {
+  background: #cce1a5 !important;
+}
+
+.success hr.star-light {
+  border-color: grey;
+}
+hr.star-light:after {
+  color: gray;
+  background-color: beige;
+}
+
+.enlarge {
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path stroke="#f5f5f5" fill="#f5f5f5" d="M32 0v13l-5-5-6 6-3-3 6-6-5-5zM14 21l-6 6 5 5h-13v-13l5 5 6-6z"></path></svg>') no-repeat;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 66%;
+  bottom: 6%;
+  opacity: 0.7;
+}
+.book-link:hover .enlarge {
+  opacity: 1;
+}
+
+#resellers h4 {
+  margin: 0.6em 0 0;
+}
+#resellers .row {
+  margin-top: 1em;
+}
+#resellers h3 {
+  color: #90A4AE;
+  text-align: center;
+  margin: 0.5em 0;
+  text-decoration: underline;
+}
+#modal {
+  -webkit-overflow-scrolling: touch !important;
+}
