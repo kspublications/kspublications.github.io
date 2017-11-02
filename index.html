@@ -43,15 +43,7 @@ layout: default
   {% include series-section.html title="Other titles" books="tabuk,ibrahim,adam" %}
 </div>
 
-<section class="success" id="resellers">
-  <div class="container">
-    <h2 class="text-center">Resellers</h2>
-    <hr class="star-light">
-    {{ site.resellers | where: "slug", "north_america" | first | output }}
-    {{ site.resellers | where: "slug", "uk" | first | output }}
-    {{ site.resellers | where: "slug", "other" | first | output }}
-  </div>
-</section>
+{% include_relative resellers.html %}
 
 <section id="mission">
   <div class="container">

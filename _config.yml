@@ -14,8 +14,6 @@ collections:
     output: true
   books:
     output: true
-  resellers:
-    output: true
 
 defaults:
   - scope:
@@ -26,7 +24,3 @@ defaults:
       type: books
     values:
       layout: book
-  - scope:
-      type: resellers
-    values:
-      layout: resellers
