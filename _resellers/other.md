@@ -10,7 +10,7 @@ Al Hajlah, 201-233, Makkah 24231, Saudi Arabia
 </div>
 
 <div class="col-12 col-sm-6 col-md-4" markdown="1">
-#### [Dar-us-Salam (Madinah, KSA)]
+#### Dar-us-Salam (Madinah, KSA)
 [+966-14-855-0119](tel:+966-14-855-0119)  
 Sultana Street (Near Islamic University)  
 Madinah, Saudi Arabia
