@@ -36,89 +36,23 @@ layout: default
 </header>
 
 <div id="works">
-<section class="series">
-  <div class="container">
-    <h2 class="text-center">The Muslim Family</h2><hr class="star-primary">
-    <div class="row justify-content-center">
-      {{ site.books | where: "slug", "quest_for_love" | first | output }}
-      {{ site.books | where: "slug", "closer_than_garment" | first | output }}
-      {{ site.books | where: "slug", "fragile_vessels" | first | output }}
-      {{ site.books | where: "slug", "sprouts" | first | output }}
-    </div>
-  </div>
-</section>
-
-<section class="series">
-  <div class="container">
-    <h2 class="text-center">Iman Made Easy</h2><hr class="star-primary">
-    <div class="row justify-content-center">
-      {{ site.books | where: "slug", "knowing_allah" | first | output }}
-      {{ site.books | where: "slug", "knowing_angels" | first | output }}
-      {{ site.books | where: "slug", "knowing_books" | first | output }}
-      {{ site.books | where: "slug", "knowing_prophets" | first | output }}
-      {{ site.books | where: "slug", "knowing_last_day" | first | output }}
-      {{ site.books | where: "slug", "qadar" | first | output }}
-    </div>
-  </div>
-</section>
-
-<section class="series">
-  <div class="container">
-    <h2 class="text-center">The Inevitable Journey</h2><hr class="star-primary">
-    <div class="row justify-content-center">
-      {{ site.books | where: "slug", "sickness" | first | output }}
-      {{ site.books | where: "slug", "inheritance" | first | output }}
-      {{ site.books | where: "slug", "will" | first | output }}
-      {{ site.books | where: "slug", "funerals" | first | output }}
-      {{ site.books | where: "slug", "barzakh" | first | output }}
-      {{ site.books | where: "slug", "dreams" | first | output }}
-    </div>
-  </div>
-</section>
-
-<section class="series">
-  <div class="container">
-    <h2 class="text-center">Enter into Islam Completely</h2><hr class="star-primary">
-    <div class="row justify-content-center">
-      {{ site.books | where: "slug", "beard" | first | output }}
-      {{ site.books | where: "slug", "smoking" | first | output }}
-      {{ site.books | where: "slug", "birth_prevention" | first | output }}
-      {{ site.books | where: "slug", "menses" | first | output }}
-    </div>
-  </div>
-</section>
-
-<section class="series">
-  <div class="container">
-    <h2 class="text-center">Fiqh Handbooks</h2><hr class="star-primary">
-    <div class="row justify-content-center">
-      {{ site.books | where: "slug", "festivals" | first | output }}
-      {{ site.books | where: "slug", "qiyam" | first | output }}
-    </div>
-  </div>
-</section>
-
-<section class="series">
-  <div class="container">
-    <h2 class="text-center">Other titles</h2><hr class="star-primary">
-    <div class="row justify-content-center">
-      {{ site.books | where: "slug", "tabuk" | first | output }}
-      {{ site.books | where: "slug", "ibrahim" | first | output }}
-      {{ site.books | where: "slug", "adam" | first | output }}
-    </div>
-  </div>
-</section>
+  {% include series-section.html title="The Muslim Family" books="quest_for_love,closer_than_garment,fragile_vessels,sprouts" %}
+  {% include series-section.html title="Iman Made Easy" books="knowing_allah,knowing_angels,knowing_books,knowing_prophets,knowing_last_day,qadar" %}
+  {% include series-section.html title="The Inevitable Journey" books="sickness,inheritance,will,funerals,barzakh,dreams" %}
+  {% include series-section.html title="Enter into Islam Completely" books="beard,smoking,birth_prevention,menses" %}
+  {% include series-section.html title="Fiqh Handbooks" books="festivals,qiyam" %}
+  {% include series-section.html title="Other titles" books="tabuk,ibrahim,adam" %}
 </div>
 
 <section class="success" id="resellers">
-    <div class="container">
-      <h2 class="text-center">Resellers</h2>
-      <hr class="star-light">
-      {{ site.resellers | where: "slug", "north_america" | first | output }}
-      {{ site.resellers | where: "slug", "uk" | first | output }}
-      {{ site.resellers | where: "slug", "other" | first | output }}
-    </div>
-  </section>
+  <div class="container">
+    <h2 class="text-center">Resellers</h2>
+    <hr class="star-light">
+    {{ site.resellers | where: "slug", "north_america" | first | output }}
+    {{ site.resellers | where: "slug", "uk" | first | output }}
+    {{ site.resellers | where: "slug", "other" | first | output }}
+  </div>
+</section>
 
   <section id="mission">
     <div class="container">

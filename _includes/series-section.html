@@ -1,0 +1,12 @@
+{% assign books = include.books | split: ',' %}
+<section class="series">
+  <div class="container">
+    <h2 class="text-center">{{ include.title }}</h2>
+    <hr class="star-primary" />
+    <div class="row justify-content-center">
+      {% for book in books %}
+        {{ site.books | where: "slug", book | first | output }}
+      {% endfor %}
+    </div>
+  </div>
+</section>
