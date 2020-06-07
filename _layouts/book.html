@@ -1,11 +1,10 @@
-<div class="col-sm-4 col-6 book-item">
-  <a class="book-link" href="#{{ page.slug }}" data-toggle="modal">
-    <img class="img-fluid" src="/img/covers/{{ page.slug }}.png" alt="{{ page.title }}">
-    <div class="enlarge"></div>
-  </a>
-</div>
+---
+layout: default
+---
 
-<div id="view_{{ page.slug }}" style="display: none">
+{% include nav.html %}
+
+<div class="book-page" id="view_{{ page.slug }}">
   <h2>{{ page.title }}</h2>
   <hr class="star-primary">
   <img class="img-fluid img-centered" src="/img/covers/{{ page.slug }}.png" alt="" />

@@ -6,6 +6,21 @@
   html.ios {font-size: 15.5px;}
 }
 
+.book-page {
+  padding-top: 100px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .book-page {
+    padding-top: 200px;
+  }
+}
+
+.book-page img {
+  margin-bottom: 30px;
+}
+
 .book-link img.img-fluid {
   margin: 0 auto;
   display: block;
@@ -13,7 +28,7 @@
 }
 @media (min-width: 768px) {
   .book-link img.img-fluid {
-    max-width: 200px; 
+    max-width: 200px;
   }
 }
 

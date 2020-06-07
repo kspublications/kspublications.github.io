@@ -4,8 +4,13 @@
     <h2 class="text-center">{{ include.title }}</h2>
     <hr class="star-primary" />
     <div class="row justify-content-center">
-      {% for book in books %}
-        {{ site.books | where: "slug", book | first | output }}
+      {% for book_slug in books %}
+        {% assign book = site.books | where: "slug", book_slug | first %}
+        <div class="col-sm-4 col-6 book-item">
+          <a class="book-link" href="{{ book.url }}">
+            <img class="img-fluid" src="/img/covers/{{ book.slug }}.png" alt="{{ book.title }}" />
+          </a>
+        </div>
       {% endfor %}
     </div>
   </div>

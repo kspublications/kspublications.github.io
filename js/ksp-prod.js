@@ -1,5 +1,5 @@
 (function () {
-  $('.book-link').click(function (e) {
+  $('.book-link-old').click(function (e) {
     $('#modal .modal-body').html(
       $('#view_' + e.currentTarget.href.split('#')[1])[0]
         .outerHTML
