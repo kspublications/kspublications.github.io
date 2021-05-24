@@ -7,7 +7,16 @@ binding: paperback
 isbn: 1-891229-22-2
 ---
 
-With Allah's help, and in line with our goal of promoting authentic Islamic knowledge, we present this book. It deals with a largely misunderstood, though much needed subject, both in Ramadan and around the year: that of voluntary night prayers, or qiyam. This book has two main objectives: Providing a complete manual on the subject of qiyam and related issues in accordance with the Qur'an, the Sunnah, and the guidance of the Salaf, and, in the process, presenting to the English reader two important works by the great scholar Muhammad Nasir ud-Deen al-Albani: Salat ut-Tarawih and Qiyam Ramadan. This book is not for Ramadan only, rather, it is for every night. It is the type of reference that you will want to keep by your pillow at night, and grab as soon as you get up in the wee hours to pray. It is a gift that is sure to please and benefit - inshaa'llaah.
+“The Night Prayers: Qiyam and Tarawih” is your complete and comprehensive guide to the Qiyam prayer. In this book you will learn about:
 
+- the virtue and excellence of the Qiyam prayer,
+- duas from the Sunnah to make during Qiyam,  
+- guidelines for praying it in congregation, 
+- the Prophet’s Sunnah on the witr/qunut prayer,
+- and everything you need to know about Laylatul Qadr...
+
+...and much much more!
+
+The book is on sale for $4, and you can read a free sample below.
 <script src="https://gumroad.com/js/gumroad.js"></script>
 <a class="gumroad-button" href="https://gumroad.com/l/PgLfi" target="_blank">Buy now</a>
